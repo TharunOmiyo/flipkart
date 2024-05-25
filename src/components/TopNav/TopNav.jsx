@@ -1,6 +1,6 @@
 // src/components/Header/Header.js
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   FaSearch,
   FaUserCircle,
@@ -44,19 +44,12 @@ const TopNav = () => {
                 ❤️
               </span>
             </li>
-            <Link to="/cart">
-              <li className="list-icon">
-                <span role="img" aria-label="cart">
-                  🛒
-                </span>
-                {/* {cartItemCount !== 0 ? (
-                  <div className="cart-item-count">
-                    <p>{cartItemCount}</p>
-                  </div>
-                ) : null} */}
-                0
-              </li>
-            </Link>
+
+            <li>
+              {" "}
+              🛒
+              {/* </span> */}0
+            </li>
           </ul>
         </div>
       </div>
